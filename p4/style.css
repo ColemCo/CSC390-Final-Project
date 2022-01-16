@@ -1,0 +1,170 @@
+/* Cooper Coleman
+    11/24/2020
+    CSC390
+    Project 4 */
+
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: grey;
+        color: white;
+    }
+   
+    .header {
+        border: black;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 7px;
+        width: 800px;
+        margin: auto;
+        text-align: center;
+        background-color: cornflowerblue;
+    }
+
+    .loginContainer {
+        border: black;
+        background-color: cornflowerblue;
+        width: 17%;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 7px;
+        padding-left: 2%;
+        margin: auto;
+        padding-bottom: 8px;
+        
+    }
+
+    .listBox {
+        text-align: left;
+        background-color: cornflowerblue;
+        float: right;
+        padding-left: 10px;
+        top: 76%;
+    }
+    
+    .fakeButton {
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        padding: 2px 6px 2px 6px;
+        border-top: 1px solid #CCCCCC;
+        border-right: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+        border-left: 1px solid #CCCCCC;
+      }
+
+    .mainBody {
+        border: black;
+        border-width: 3px;
+        border-style: solid;
+        border-radius: 7px;
+        width:800px;
+        margin: 0 auto;
+        background-color: cornflowerblue;
+        height: 100%;
+        white-space: nowrap;
+    }
+
+    .myButton {
+        box-shadow:inset 0px 1px 3px 0px #212222;
+        background:linear-gradient(to bottom, #5a5a5a 5%, #424242 100%);
+        background-color:rgb(66, 66, 66);
+        border-radius:5px;
+        border:1px solid #383d3c;
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        padding:11px 23px;
+        text-decoration:none;
+        
+    }
+
+    .myButton:hover {
+        background:linear-gradient(to bottom, #696868 5%, #515253 100%);
+        background-color:#378de5;
+    }
+
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+
+    input[type=text], select {
+        border-radius: 3px;
+        border-width: 2px;
+        border: none;
+        height: 20px;
+    }
+
+    .showList {
+        margin-left: 50xp;
+        width: 60%;
+        
+    }
+
+    .list {
+        margin: 10px auto;
+        border-radius: 5px;
+        border: solid;
+        border-color: black;
+        background-color: rgb(18, 70, 182);
+        text-align: center;
+        width: 400px;
+        margin-left: 41%;
+        display: inline-block;
+    }
+
+    .list h3 {
+        
+        margin: 1px;
+    }
+
+    .list p {
+        margin: 1px;;
+    }
+
+    .list a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .list a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .wholePage {
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    table {
+        align-self: center;
+        font-size: larger;
+        width: 700px;
+        
+    }
+
+    td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .expandList {
+        display: flex;
+        width: 100%;
+        margin: 10 auto;
+        justify-content: center;
+    }
+
+    .deleteList {
+        background: none!important;
+        border: none;
+        padding: 0!important;
+        /*optional*/
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
